@@ -6,16 +6,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <style> 
-    #footer { 
-        position: fixed; 
-        padding: 10px 10px 0px 10px; 
-        bottom: 0; 
-        width: 100%; 
-        /* Height of the footer*/  
-        height: 40px; 
-        background: grey; 
-    } 
+  <style>
+    #center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            background: grey;
+        }
 </style> 
 
   <!-- Bootstrap CSS -->
@@ -59,47 +65,44 @@
   <div class="container text-center my-3">
     <h2 class="py-3">My Projects</h2>
     <div class="row">
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="http://www.clker.com/cliparts/i/q/P/I/k/y/file-md.png" class="card-img-top" alt="...">
+        <div class="col-md-6 py-2">
+            <div class="card" style="width: 30rem;" id="center">
+              <figure class="">
+                <img src="/media/purduetriptimer.png" class="card-img-top " alt="...">
+              </figure>
+              
                 <div class="card-body">
                     <h5 class="card-title">
-                        <a href="#" class="card-link">Resume</a>
+                        <a href="https://github.com/HenryWellman/PurdueTripTimer" class="card-link">Purdue Trip Timer</a>
                     </h5>
-                    <p class="card-text">A link to the most current version of my resume if interested in hiring for a position.</p>
+                    <p class="card-text">An Android app that shows travel times between Purdue buildings 
+                      based on crowd-sourced data stored on a server. A 
+                      <a href="https://devpost.com/software/purdue-triptimer">Hello World 2020 submission</a>
+                      <div class="space-4000"></div>
+                    </p>
+                  
                    
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png" class="card-img-top" alt="...">
+        <div class="col-md-6 py-2">
+            <div class="card" style="width: 30rem;" id="center">
+                <img src="/media/firstHomePage.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">
-                        <a href="https://github.com/HenryWellman" class="card-link">GitHub Page</a> </h5>
-                    <p class="card-text">A link to my personal GitHub page with the source code for my projects.</p>
+                        <a href="https://github.com/HenryWellman/personal-portfolio-site" class="card-link">This Website</a> </h5>
+                    <p class="card-text">The website you're on right now is powered by a fast and 
+                      minimalist Django project for displaying relevant Computer Science information about myself.
+                      <div class="space-10000"></div></p>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="https://myclouddoor.com/wp-content/uploads/2019/11/Linkedin-logo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="#" class="card-link">LinkedIn Page</a>
-                    </h5>
-                    <p class="card-text">A link to my personal LinkedIn page.</p>
-                    
-                </div>
-            </div>
-        </div>
     </div>
   </div>
+</div><div id="footer" class="text-center text-light bg-dark py-2">Copyright © 2020 Henry Wellman | All rights reserved
 </div>
-
-    <div id="footer" class="text-center text-light bg-dark py-2">Copyright © 2020 Henry Wellman | All rights reserved </div> 
 
   <!-- Optional JavaScript; choose one of the two! -->
 
