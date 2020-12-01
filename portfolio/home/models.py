@@ -11,3 +11,7 @@ class Contact(models.Model):
     #Test for photo
 class DisplayPhoto(models.Model):
     photo = models.ImageField(upload_to="gallery")
+    
+    #For uploading resume
+class DisplayResume(models.Model):
+    photo = models.FileField(upload_to="gallery")

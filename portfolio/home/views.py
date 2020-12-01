@@ -11,6 +11,11 @@ def about(request):
     #return HttpResponse("This is my about page (/about)")
     return render(request, 'about.html')
 
+def credentials(request):
+    #return HttpResponse("This is my about page (/about)")
+    return render(request, 'about.html')
+
+
 def contact(request):
     if request.method=="POST":
         
