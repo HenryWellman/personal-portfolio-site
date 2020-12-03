@@ -2,8 +2,11 @@
 A fast and minimalist Django project for displaying relevant Computer Science information about myself.
 
 ## Demo-Video
+
 <video width="560" height="315">
+  
   <source src="https://www.youtube.com/embed/Tpazv-hO5-w">
+  
 </video>
 
 ## Screenshots
