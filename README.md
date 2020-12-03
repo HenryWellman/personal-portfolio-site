@@ -6,3 +6,7 @@ A fast and minimalist Django project for displaying relevant Computer Science in
 
 [More screenshots](screenshots/)
 
+## License
+
+[MIT License](LICENSE)
+
