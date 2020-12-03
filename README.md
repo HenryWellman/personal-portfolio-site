@@ -2,8 +2,8 @@
 A fast and minimalist Django project for displaying relevant Computer Science information about myself.
 
 ## Demo-Video
-
-[![demoVideo](screenshots/contact.PNG)](https://www.youtube.com/watch?v=--b-9HrKK6w "Demo of the Site")
+Click Below To Watch Demo Video!
+[![demoVideo](screenshots/projects.PNG)](https://www.youtube.com/watch?v=Tpazv-hO5-w "Demo Video")
 
 ## Screenshots
 <img src="screenshots/homeTop.PNG" alt-text="Screenshot">
