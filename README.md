@@ -2,5 +2,5 @@
 A fast and minimalist Django project for displaying relevant Computer Science information about myself.
 
 # Screenshots
-![Alt text] 
-(/media/profile.jpg?raw=true "Optional Title")
+<img src="/media/profile.jpg" alt-text="Screenshot" width="200px">
+
