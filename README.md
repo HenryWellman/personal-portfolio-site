@@ -5,7 +5,8 @@ A fast and minimalist Django project for displaying relevant Computer Science in
 
 <video width="560" height="315">
   
-  <src="https://www.youtube.com/embed/Tpazv-hO5-w">
+  <src="https://www.youtube.com/embed/Tpazv-hO5-w"
+  frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
   
 </video>
 
