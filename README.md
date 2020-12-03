@@ -4,8 +4,9 @@ A fast and minimalist Django project for displaying relevant Computer Science in
 ## Screenshots
 <div class="container">
 <img src="screenshots/contact.png" alt-text="Screenshot">
+  </div>
 [More screenshots](screenshots/)
-</div>
+
 
 ## License
 
