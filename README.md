@@ -13,7 +13,8 @@ https://www.youtube.com/watch?v=Tpazv-hO5-w
 
 [More screenshots](screenshots/)
 
-## License
-
-[MIT License](LICENSE)
+## What's Next For This Site?
+-Adding small improvements to interface and photos every now and then.
+-Will continue to update things like resume to the most recent version.
+-Currently looking into how to put the project into production, most likely on an AWS LightSail  instance.
 
