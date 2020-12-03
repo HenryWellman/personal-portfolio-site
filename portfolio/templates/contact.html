@@ -1,3 +1,4 @@
+{% load recaptcha2 %}
 <!doctype html>
 <html lang="en">
 
@@ -5,6 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% recaptcha_init %}
 
     <style>
         #footer {
@@ -79,11 +81,11 @@
 
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="desc" name="desc" rows="6"
+                <textarea class="form-control" id="desc" name="desc" rows="4"
                     placeholder="Write Your Message Here"></textarea>
             </div>
 
-            <!--Try to add recaptcha code here
+            
             <div class="field">
                 <script async="" defer="" src="https://hcaptcha.com/1/api.js"></script>
                 <div class="h-captcha" data-sitekey="029ab1ea-cc40-4bee-a658-a25e8fe63537" id="h-captcha"><iframe
@@ -99,7 +101,7 @@
                     </article>
                 </noscript>
             </div>
-        -->
+        
             <button type="submit" class="btn btn-success">Submit</button>
         </form>
     </div>

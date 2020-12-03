@@ -35,3 +35,5 @@ def projects(request):
     #return HttpResponse("This is my projects page (/projects)")
     return render(request, 'projects.html')
 
+
+

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'snowpenguin.django.recaptcha2',
 ]
 
 MIDDLEWARE = [
@@ -55,6 +56,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'portfolio.urls'
+#Recaptcha Keys
+RECAPTCHA_PRIVATE_KEY = 'your private key'
+RECAPTCHA_PUBLIC_KEY = 'your public key'
 
 TEMPLATES = [
     {
