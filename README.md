@@ -3,12 +3,7 @@ A fast and minimalist Django project for displaying relevant Computer Science in
 
 ## Demo-Video
 
-<video width="560" height="315">
-  
-  <src="https://www.youtube.com/embed/Tpazv-hO5-w"
-  frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-  
-</video>
+[![demoVideo](screenshots/contact.PNG)](https://www.youtube.com/watch?v=--b-9HrKK6w "Demo of the Site")
 
 ## Screenshots
 <img src="screenshots/homeTop.PNG" alt-text="Screenshot">
