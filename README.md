@@ -2,9 +2,10 @@
 A fast and minimalist Django project for displaying relevant Computer Science information about myself.
 
 ## Demo-Video
-<video width="320" height="240" controls>
-      <source src="screenshots/demoVideo.mp4" type=video/mp4>
-    </video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tpazv-hO5-w" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 ## Screenshots
 <img src="screenshots/homeTop.PNG" alt-text="Screenshot">
