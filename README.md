@@ -10,6 +10,12 @@ Click On Image To Watch Demo Video!
 Or Just Click Here
 https://www.youtube.com/watch?v=Tpazv-hO5-w
 
+## Challenges I Ran Into
+I don't have much html/css experience, so I was constantly looking up documentation to learn how to do things or
+add various components and features that I wanted. I also had to learn the basics of the Django framework and what
+that really means. Current "problem" is looking into the process of putting this project into production on a cloud
+server with AWS. This feels like just as much of a project as was developing this site, but I am ready for the challenge!
+
 ## Screenshots
 <img src="screenshots/homeTop.PNG" alt-text="Screenshot">
 <img src="screenshots/contact.PNG" alt-text="Screenshot">
