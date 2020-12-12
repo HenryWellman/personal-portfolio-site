@@ -5,6 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <style>
     #center {
         display: block;
@@ -12,14 +13,23 @@
         margin-right: auto;
         width: 50%;
     }
-</style>
+    #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            background: grey;
+        }
+</style> 
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <LINK REL="SHORTCUT ICON"
     HREF="media/testlogo.ico">
-  <title>My Credentials | Henry Wellman</title>
+  <title>Search Results | Henry Wellman</title>
 </head>
 
 <body>
@@ -35,10 +45,10 @@
         <li class="nav-item">
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="/credentials">Credentials</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="/projects">Projects</a>
         </li>
         <li class="nav-item">
@@ -49,54 +59,46 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <input type="button" onclick="window.location.href='/search'" value="Search" class="btn btn-outline-success my-2 my-sm-0 "/>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
   </nav>
+
   <div class="container text-center my-3">
-    <h2 class="py-3">My Credentials</h2>
-    <div class="row">
-        <div class="col-md-12 py-2">
-            <div class="card" style="width: 18rem;" id="center">
-                <img src="http://www.clker.com/cliparts/i/q/P/I/k/y/file-md.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="/media/My Current Resume.pdf" class="card-link">Resume</a>
-                    </h5>
-                    <p class="card-text">A link to the most current version of my resume if interested in hiring for a position.</p>
-                   
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-12 py-2">
-            <div class="card" style="width: 18rem;" id="center">
-                <img src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="https://github.com/HenryWellman" class="card-link">GitHub Page</a> </h5>
-                    <p class="card-text">A link to my personal GitHub page with the source code for my projects.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-12 py-2">
-            <div class="card" style="width: 18rem;" id="center">
-                <img src="https://myclouddoor.com/wp-content/uploads/2019/11/Linkedin-logo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="https://www.linkedin.com/in/henry-wellman-b11bab200/" class="card-link">LinkedIn Page</a>
-                    </h5>
-                    <p class="card-text">A link to my personal LinkedIn page.</p>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+    <h2 class="py-3">Search Results</h2>
   </div>
+
+<div class="container my-3">
+    <a href="/" class="link"> <h1>Home Page</h1> </a> </h5>
+    <p>
+        A link to the Home Page of the site. Features quick facts about myself, and a photo of who I am!
+    </p>
 </div>
 
-<footer class="text-center text-light bg-dark py-2">Copyright © 2020 Henry Wellman | All rights reserved</footer>
+<div class="container my-3">
+    <a href="/credentials" class="link"> <h1>Credentials Page</h1> </a> </h5>
+    <p>
+        A link to some of my important documents and work. Includes my resume, GitHub page, and LinkedIn page!
+    </p>
+</div>
+
+<div class="container my-3">
+    <a href="/projects" class="link"> <h1>Projects Page</h1> </a> </h5>
+    <p>
+        A link to some of my GitHub projects. Includes the Purdue Trip Timer app, and this actual website!
+    </p>
+</div>
+
+<div class="container my-3">
+    <a href="/contact" class="link"> <h1>Contact Page</h1> </a> </h5>
+    <p>
+        A link to a contact form. Please send your messagge and I will try to get back to you quickly!
+    </p>
+</div>
+   
+
+</div><div id="footer" class="text-center text-light bg-dark py-2">Copyright © 2020 Henry Wellman | All rights reserved
+</div>
 
   <!-- Optional JavaScript; choose one of the two! -->
 

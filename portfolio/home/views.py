@@ -35,5 +35,9 @@ def projects(request):
     #return HttpResponse("This is my projects page (/projects)")
     return render(request, 'projects.html')
 
+def search(request):
+    #return HttpResponse("This is my search results page (/search)")
+    return render(request, 'search.html')
+
 
 
