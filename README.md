@@ -2,7 +2,8 @@
 A fast and minimalist Django project for displaying relevant Computer Science information about myself.
 Considering this was my first ever attempt at making a proper site, and that this was my first time working
 with the Django framework, I am very proud of what I have accomplished. Obviously, it's not perfect, and I will 
-continually update the project accordingly, as I get better and more familiar with Django and HTML/CSS!
+continually update the project accordingly, as I get better and more familiar with Django and HTML/CSS! You can
+now visit my site at http://henrywellman.com/!
 
 ## Demo-Video
 Click On Image To Watch Demo Video!
@@ -13,8 +14,11 @@ https://www.youtube.com/watch?v=Tpazv-hO5-w
 ## Challenges I Ran Into
 I don't have much html/css experience, so I was constantly looking up documentation to learn how to do things or
 add various components and features that I wanted. I also had to learn the basics of the Django framework and what
-that really means. Current "problem" is looking into the process of putting this project into production on a cloud
-server with AWS. This feels like just as much of a project as was developing this site, but I am ready for the challenge!
+that really means. Putting the site into production was even more complicated than developing the project itself! I 
+had to learn all about web structure, choose the best platform to run it on, (AWS Lightsail Instance) and all the little
+configuration steps. I had to learn about how to set up a database with Postgres, communicate with my server via my WSGI Server
+Gunicorn, and use the Nginx load balancer to route traffic to my site. Even learning how to register my site's domain was a real
+adventure, but I have really learned so much about web development and the way the internet operates through this project!
 
 ## Screenshots
 <img src="screenshots/homeTop.PNG" alt-text="Screenshot">
@@ -23,7 +27,10 @@ server with AWS. This feels like just as much of a project as was developing thi
 [More screenshots](screenshots/)
 
 ## What's Next For This Site?
-- Adding small improvements to interface and photos every now and then.
-- Will continue to update things like resume to the most recent version.
-- Currently looking into how to put the project into production, most likely on an AWS LightSail  instance.
+While the site is now in production, I still have a lot of things to add and update to my site. For example, whenever I make a new
+project or update my resume, I will still update the site. The same goes with things like photos, or credentials. The next thing I am
+going to focus on is getting an SSL certificate for my site so that it can be secure. While it is not necessary as my site does not require
+you to input any private information, it is something that will put my users at ease when they see that little lock logo as opposed to the warning
+triangle that is currently displayed! I also plan on improving my contact form, (I think there is a slight bug when using the site on a phone) and 
+making my search results pages more dynamic based on the user's search query.
 
