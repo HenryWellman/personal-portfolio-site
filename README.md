@@ -3,7 +3,7 @@ A fast and minimalist Django project for displaying relevant Computer Science in
 Considering this was my first ever attempt at making a proper site, and that this was my first time working
 with the Django framework, I am very proud of what I have accomplished. Obviously, it's not perfect, and I will 
 continually update the project accordingly, as I get better and more familiar with Django and HTML/CSS! You can
-now visit my site at http://henrywellman.com/!
+now visit my site at https://henrywellman.com/!
 
 ## Demo-Video
 Click On Image To Watch Demo Video!
@@ -28,9 +28,8 @@ adventure, but I have really learned so much about web development and the way t
 
 ## What's Next For This Site?
 While the site is now in production, I still have a lot of things to add and update to my site. For example, whenever I make a new
-project or update my resume, I will still update the site. The same goes with things like photos, or credentials. The next thing I am
-going to focus on is getting an SSL certificate for my site so that it can be secure. While it is not necessary as my site does not require
-you to input any private information, it is something that will put my users at ease when they see that little lock logo as opposed to the warning
-triangle that is currently displayed! I also plan on improving my contact form, (I think there is a slight bug when using the site on a phone) and 
-making my search results pages more dynamic based on the user's search query.
+project or update my resume, I will still update the site. The same goes with things like photos, or credentials. The next thing I am going to focus on 
+is improving my contact form, (I think there is a slight bug when using the site on a phone) and making my search results pages more dynamic based on
+the user's search query. This will hopefully make my site feel more professional and sleek, and it is my hope that as I improve as a programmer, my site
+will also reflect this growth and end up becoming a very high quality website to impress future employers!
 
