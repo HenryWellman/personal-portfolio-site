@@ -30,7 +30,7 @@ SECRET_KEY = 'secret you cannot have'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['18.219.6.227', 'localhost', 'henrywellman.com', 'www.henrywellman.com']
+ALLOWED_HOSTS = ['localhost', 'henrywellman.com', 'www.henrywellman.com']
 
 
 # Application definition
