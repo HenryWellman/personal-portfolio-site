@@ -3,7 +3,7 @@ A fast and minimalist Django project for displaying relevant Computer Science in
 Considering this was my first ever attempt at making a proper site, and that this was my first time working
 with the Django framework, I am very proud of what I have accomplished. Obviously, it's not perfect, and I will 
 continually update the project accordingly, as I get better and more familiar with Django and HTML/CSS! You can
-now visit my site at https://henrywellman.com/!
+now visit my site at https://henrywellman.com!
 
 ## Demo-Video
 Click On Image To Watch Demo Video!
