@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {% recaptcha_init %}
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <style>
         #footer {
@@ -86,23 +86,8 @@
                     placeholder="Write Your Message Here"></textarea>
             </div>
 
-            
-            <div class="field">
-                <script async="" defer="" src="https://hcaptcha.com/1/api.js"></script>
-                <div class="h-captcha" data-sitekey="029ab1ea-cc40-4bee-a658-a25e8fe63537" id="h-captcha"><iframe
-                        src="https://assets.hcaptcha.com/captcha/v1/9caf7ca/static/hcaptcha-checkbox.html#id=0ujigi8o0wag&amp;host=chrisx.xyz&amp;sentry=true&amp;reportapi=https%3A%2F%2Faccounts.hcaptcha.com&amp;recaptchacompat=true&amp;sitekey=029ab1ea-cc40-4bee-a658-a25e8fe63537"
-                        title="widget containing checkbox for hCaptcha security challenge" tabindex="0" frameborder="0"
-                        scrolling="no" data-hcaptcha-widget-id="0ujigi8o0wag" data-hcaptcha-response=""
-                        style="width: 303px; height: 78px; overflow: hidden;"></iframe><textarea
-                        id="g-recaptcha-response-0ujigi8o0wag" name="g-recaptcha-response"
-                        style="display: none;"></textarea><textarea id="h-captcha-response-0ujigi8o0wag"
-                        name="h-captcha-response" style="display: none;"></textarea></div><noscript>
-                    <article class="message is-info">
-                        <div class="message-header"><strong>Please enable JavaScript to send messages.</strong></div>
-                    </article>
-                </noscript>
-            </div>
-        
+            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+       
             <button type="submit" class="btn btn-success">Submit</button>
         </form>
     </div>
