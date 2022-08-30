@@ -30,5 +30,5 @@ adventure, but I have really learned so much about web development and the way t
 While the site is now in production, I still have a lot of things to add and update to my site. For example, whenever I make a new
 project or update my resume, I will still update the site. The same goes with things like photos, or credentials. The next thing I am going to focus on 
 is making my search results pages more dynamic based on
-the user's search query. I will also try and implement some basic javascript animations, (spinners, loading screens, etc...) via the React framework.This will hopefully make my site feel more professional and sleek, and it is my hope that as I improve as a programmer, my site will also reflect this growth and end up becoming a very high quality website to impress future employers! 
+the user's search query! I will also try and implement some basic javascript animations, (spinners, loading screens, etc...) via the React framework.This will hopefully make my site feel more professional and sleek, and it is my hope that as I improve as a programmer, my site will also reflect this growth and end up becoming a very high quality website to impress future employers! 
 
